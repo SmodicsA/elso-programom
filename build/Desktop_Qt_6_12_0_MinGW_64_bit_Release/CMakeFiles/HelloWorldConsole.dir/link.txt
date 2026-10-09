@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\HelloWorldConsole.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\HelloWorldConsole.dir/objects.a @CMakeFiles\HelloWorldConsole.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\HelloWorldConsole.dir/objects.a -Wl,--no-whole-archive -o HelloWorldConsole.exe -Wl,--out-implib,libHelloWorldConsole.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\HelloWorldConsole.dir\linkLibs.rsp
