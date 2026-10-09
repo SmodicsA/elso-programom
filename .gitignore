@@ -1,0 +1,25 @@
+# Fordítási termékek (Buildek)
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.out
+
+# Qt által generált ideiglenes fájlok
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*-build-*
+
+# Qt Creator specifikus beállítások (amik gépenként változnak)
+*.user
+*.user.*
+
+# CMake és qmake ideiglenes mappák
+/build/
+/.cmake/
+CMakeLists.txt.user
