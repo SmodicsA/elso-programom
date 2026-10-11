@@ -1,6 +1,6 @@
 #include <QCoreApplication>
 #include <QTextStream>
-#include <conio.h> // Ez a Windows-specifikus könyvtár kell a _getch() használatához
+#include <stdio.h>
 
 int main(int argc, char *argv[])
 {
@@ -11,11 +11,10 @@ int main(int argc, char *argv[])
     out << "Hello World!" << Qt::endl;
 
     // Konzolos alkalmazásoknál megállítjuk a futást, hogy ne záródjon be azonnal az ablak
-    out << "\nA kilepeshez nyomj meg egy gombot..." << Qt::endl;
+    out << "\nA kilepeshez nyomj Entert!" << Qt::endl;
     out.flush();
-    _getch();
+    getchar();
 
     return 0; // Egyszerű konzolos teszthez nem kell elindítani az a.exec() eseményhurkot
-
 
 }
